@@ -1,0 +1,151 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'OpenSans', sans-serif
+}
+
+/*HEADER*/
+
+.header {
+    height: 38px;
+    width: 960px;
+    background-image: url("../img/panel.png");
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu li{
+    display: inline-block;
+    font-family: 'OpenSans', sans-serif;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: justify;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    width: 95px;
+    height: 30px;
+    padding: 4px;
+
+}
+
+.menu a {
+    color: white;
+    padding: 30px;
+}
+
+.menu li:hover {
+    background-image: url("../img/link2.png");
+}
+
+/*CONTENT*/
+
+.wrapper {
+    width: 970px;
+    height: 100%;
+    padding: 50px 45px 60px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.30),
+    -1px 0px 5px 0px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.30),
+    -1px 0px 5px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.30),
+    -1px 0px 5px 0px rgba(0, 0, 0, 0.30);
+}
+
+.image {
+    margin: -239px 50px 340px 280px;
+    width: 678px;
+    height: 400px;
+}
+
+.text {
+    height: 141px;
+    width: 625px;
+    position: absolute;
+    margin: -300px 300px;
+
+}
+
+p {
+    font-family: OpenSans sans-serif;
+    color: #2c2b2b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*SIDEBAR*/
+
+.sidebar {
+    width: 270px;
+    height: 240px;
+    margin: 40px 0 0 -40px;
+}
+
+.sidebar a {
+    color: #656363;;
+}
+
+.sidebar ul li {
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #656363;
+    font-size: 14px;
+}
+
+.sidebar_active,
+.sidebar li a:hover {
+    padding-left: 37px;
+    background: #f9f9f9;
+    color: #2c2c2c;
+    width: 180px;
+    height: 38px;
+    display: block;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-image: url("../img/panel2.png");
+    width: 960px;
+}
+
+.footer ul {
+    padding: 5px;
+}
+
+.footer a {
+    color: black;
+    padding: 30px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer1 li  {
+    display: inline-block;
+    font-family: 'OpenSans', sans-serif;
+    color:  #2c2c2c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: justify;
+}
+
+.copyright  {
+    position: absolute;
+    right: 205px;
+    bottom: -40px;
+    font-family: 'OpenSans', sans-serif;
+    color:  #2c2c2c;
+}
