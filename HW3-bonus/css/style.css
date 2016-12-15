@@ -1,0 +1,51 @@
+.wrapper {
+    width: 870px;
+    height: 773px;
+    padding: 50px 45px 60px 45px;
+    margin: 0 auto;
+    background-image: url('../img/asia-bg.jpg');
+}
+
+/* HEADER */
+
+.logo {
+    width: 265px;
+    height: 155px;
+    margin-left: 45px;
+    position: relative;
+    top: 30px;
+}
+
+/* CONTENT */
+
+.images1 li {
+    display: inline-block;
+    margin-right: 2px;
+    clear: both;
+
+}
+
+.images2 li {
+    display: inline-block;
+    margin-top: 33px;
+}
+
+.contacts {
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+}
+
+ul {
+    clear: both;
+}
+
+/* FOOTER */
+
+.footer p {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Tahoma sans-serif;
+    color: #fff;
+}
