@@ -91,25 +91,33 @@ a {
 }
 
 .sidebar a {
-    color: #656363;;
+    display: block;
+    color: #656363;
+    padding: 10px;
+    width: 230px;
+    height: 16px;
+
 }
 
 .sidebar ul li {
     border: 1px solid #c8c8c8;
-    padding: 10px;
+    /*padding: 10px;*/
     box-sizing: border-box;
     color: #656363;
     font-size: 14px;
 }
 
-.sidebar_active,
-.sidebar li a:hover {
+.sidebar li:hover {
     padding-left: 37px;
     background: #f9f9f9;
     color: #2c2c2c;
-    width: 180px;
+    width: 230px;
     height: 38px;
     display: block;
+}
+
+.sidebar li a:hover {
+    color: #2c2c2c;
 }
 
 /*FOOTER*/
@@ -144,7 +152,7 @@ a {
 
 .copyright  {
     position: absolute;
-    right: 205px;
+    right: 500px;
     bottom: -40px;
     font-family: 'OpenSans', sans-serif;
     color:  #2c2c2c;
